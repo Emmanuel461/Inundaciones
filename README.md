@@ -171,18 +171,18 @@ Use la opción <strong>Raster/subset</strong>, en </strong>Spatial Subset selecc
 
 <p>Use la opción <strong>Radar/Radiometric/Calibrate.</strong></p>
 
-<img src="Fig9.png">
-<h4 id="Sección3">Fig 9. Acceso a la herramienta de corrección radiométrica.</h4>
+<img src="Fig10.png">
+<h4 id="Sección3">Fig 10. Acceso a la herramienta de corrección radiométrica.</h4>
 
 <p>Seleccione el recorte de interés en <strong>Source Parameters</strong> y defina la ruta de salida en <strong>Directory</strong>. <strong>Los parámetros de proceso se dejan por defecto. Este proceso se debe realizar para ambas imágenes.</strong></p>
 
 <p>Una vez realizado dar click en <img src="RUN.png">.</p>
 
-<img src="Fig10.png">
-<h4 id="Sección3">Fig 10. Parámetros de corrección radiométrica.</h4>
-
 <img src="Fig11.png">
-<h4 id="Sección3">Fig 11. Aplicación de corrección radiométrica, imagen izquierda 18-09-2017 VV, imagen derecha 12-10-2017, VV.</h4>
+<h4 id="Sección3">Fig 11. Parámetros de corrección radiométrica.</h4>
+
+<img src="Fig12.png">
+<h4 id="Sección3">Fig 12. Aplicación de corrección radiométrica, imagen izquierda 18-09-2017 VV, imagen derecha 12-10-2017, VV.</h4>
 
 
 
