@@ -95,3 +95,40 @@ Use la opción <strong>File/ Open Product</strong> para importar las imágenes S
 
 <img src="Fig2.png">
 <h4 id="Sección2">Fig 2. Importar imágenes del repositorio.</h4>
+
+<p>Las imágenes SAR abarcan grandes áreas, por lo que para disminuir los tiempos de procesamiento se aplicó un recorte sobre el área de estudio.
+Use la opción <strong>Raster/subset</strong>, en </strong>Spatial Subset seleccione Geo Coordinates (Fig 5) y coloque los siguientes valores.</p>
+
+<h2>Datos recorte</h2>
+
+<table style="width:100%">
+  <tr>
+    <th>Bound</th>
+    <th>Value</th> 
+  </tr>
+  <tr>
+    <td>North latitude bound</td>
+    <td>10.38</td>
+  </tr>
+  <tr>
+    <td>West longitude bound</td>
+    <td>-85.56</td>
+  </tr>
+  <tr>
+    <td>South latitude bound</td>
+    <td>10.28</td>
+  </tr>
+  <tr>
+    <td>East longitude bound</td>
+    <td>-85.70</td>
+  </tr>
+</table>
+
+
+<img src="Fig2.png">
+<h4 id="Sección3">Fig 3. Delimitación del área de estudio.</h4>
+
+<img src="Fig2.png">
+<h4 id="Sección3">Fig 4. Selección de la banda de polarización VV.</h4>
+
+<p>En la pestaña Band Subset el usuario puede recortar la banda de polarización a utilizar, en este caso se mantienen seleccionadas las bandas Amplitude_VV -hace referencia a los valores de amplitud obtenidos en la escena- y Intensity_VV -corresponde a los valores de amplitud al cuadrado- (Le Toan, 2007) (NASA - ARSET (Applied Remote Sensing training),2017), ya que con esta polarización se identificaran las inundaciones (Fig 5).Una vez realizado esto dar click en <img src="OK.png">.</p>
