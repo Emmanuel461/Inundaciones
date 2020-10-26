@@ -19,7 +19,7 @@
 <p>Para ejecutar esta rutina el usuario debe instalar previamente el software Sentinel Toolbox (SNAP), el cual es un software de procesamiento para el análisis y observación de la tierra, con herramientas enfocadas en extensibilidad de datos, portabilidad, procesamiento en marcos gráficos, entre otras herramientas (ESA, 2020).</p>
 
 <img src="SNAP.png" />
-<h4 id="Sección3">Fig. 1. Sentinel Toolbox (SNAP).</h4>
+<h4 id="Sección1">Fig. 1. Sentinel Toolbox (SNAP).</h4>
 
 <p>La descarga del software SNAP se puede realizar en la siguiente dirección electrónica</p> 
 <p><a href="http://step.esa.int/main/download/snap-download/" target="_blank">http://step.esa.int/main/download/snap-download/</a></p> 
@@ -96,6 +96,8 @@ Use la opción <strong>File/ Open Product</strong> para importar las imágenes S
 <img src="Fig2.png">
 <h4 id="Sección2">Fig 2. Importar imágenes del repositorio.</h4>
 
+<p><h3>3.2 Aplicación de un recorte (opcional) (subset).</h3></p>
+
 <p>Las imágenes SAR abarcan grandes áreas, por lo que para disminuir los tiempos de procesamiento se aplicó un recorte sobre el área de estudio.
 Use la opción <strong>Raster/subset</strong>, en </strong>Spatial Subset seleccione Geo Coordinates (Fig 5) y coloque los siguientes valores.</p>
 
@@ -125,10 +127,30 @@ Use la opción <strong>Raster/subset</strong>, en </strong>Spatial Subset selecc
 </table>
 
 
-<img src="Fig2.png">
+<img src="Fig3.png">
 <h4 id="Sección3">Fig 3. Delimitación del área de estudio.</h4>
 
-<img src="Fig2.png">
+<img src="Fig4.png">
 <h4 id="Sección3">Fig 4. Selección de la banda de polarización VV.</h4>
 
-<p>En la pestaña Band Subset el usuario puede recortar la banda de polarización a utilizar, en este caso se mantienen seleccionadas las bandas Amplitude_VV -hace referencia a los valores de amplitud obtenidos en la escena- y Intensity_VV -corresponde a los valores de amplitud al cuadrado- (Le Toan, 2007) (NASA - ARSET (Applied Remote Sensing training),2017), ya que con esta polarización se identificaran las inundaciones (Fig 5).Una vez realizado esto dar click en <img src="OK.png">.</p>
+<p>En la pestaña Band Subset el usuario puede recortar la banda de polarización a utilizar, en este caso se mantienen seleccionadas las bandas Amplitude_VV -hace referencia a los valores de amplitud obtenidos en la escena- y Intensity_VV -corresponde a los valores de amplitud al cuadrado- (Le Toan, 2007) (NASA - ARSET (Applied Remote Sensing training),2017), ya que con esta polarización se identificaran las inundaciones (Fig 4).Una vez realizado esto dar click en <img src="OK.png">.</p>
+
+<p>El resultado del recorte corresponde a un archivo temporal, por lo que debe guardarse como una imagen nueva, seleccione el recorte y presione click derecho, use la opción <strong>Save Product As</strong> y elija una ruta de salida. <strong>Este proceso se debe realizar para ambas imágenes</strong>.</p>
+
+<img src="Fig5.png">
+<h4 id="Sección3">Fig 5. Selección de la banda de polarización VV.</h4>
+
+<p><h3>3.3 Aplicación de Órbita /Apply Orbit File.</h3></p>
+
+<p>El primer paso para el procesamiento de imágenes SAR, es aplicar un archivo de órbita preciso para mejorar la geocodificación del producto, es decir cargar los metadatos de órbita con el archivo de órbita de la imagen de referencia.</p>
+
+<p>Use la opción Radar/ Apply Orbit File</p>
+
+<p>Seleccione el recorte al que desea aplicar los archivos de órbita y señala el directorio de salida (Fig 6).Una vez realizado dar click en<img src="RUN.png">.</p>
+
+<img src="Fig6.png">
+<h4 id="Sección3">Fig 6. Selección del recorte de aplicación de los archivos de órbita y el directorio de salida.</h4>
+
+
+
+
