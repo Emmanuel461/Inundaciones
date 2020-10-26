@@ -144,12 +144,45 @@ Use la opción <strong>Raster/subset</strong>, en </strong>Spatial Subset selecc
 
 <p>El primer paso para el procesamiento de imágenes SAR, es aplicar un archivo de órbita preciso para mejorar la geocodificación del producto, es decir cargar los metadatos de órbita con el archivo de órbita de la imagen de referencia.</p>
 
-<p>Use la opción Radar/ Apply Orbit File</p>
+<p>Use la opción <strong>Radar/ Apply Orbit File</strong></p>
 
 <p>Seleccione el recorte al que desea aplicar los archivos de órbita y señala el directorio de salida (Fig 6).Una vez realizado dar click en<img src="RUN.png">.</p>
 
 <img src="Fig6.png">
 <h4 id="Sección3">Fig 6. Selección del recorte de aplicación de los archivos de órbita y el directorio de salida.</h4>
+
+
+<p>En la sección de parámetros de procesamiento (Fig 7) dejar las opciones por defecto.Una vez realizado dar click en<img src="RUN.png">.</p>
+
+<img src="Fig7.png">
+<h4 id="Sección3">Fig 7. Parámetros de procesamiento.</h4>
+
+<p>Resultados del subset y el aplicación de los archivos de órbita.</p>
+
+<img src="Fig8.png">
+<h4 id="Sección3">Fig 8. Recorte y aplicación de órbita en imagen de 18-09-2017, VV.</h4>
+
+<img src="Fig9.png">
+<h4 id="Sección3">Fig 9. Recorte y aplicación de órbita en imagen de 12-10-2017, VV.</h4>
+
+<p><h3>3.4 Calibración Radiométrica /Radiometric calibration.</h3></p>
+
+<p> El proceso de calibración radiométrica permite asociar el valor de los píxeles de la escena directamente con el reflejo de las microondas de la superficie de la imagen (Environmental Systems Research Institute (ESRI), 2019). Este proceso es indispensable para la ejecución de análisis cuantitativos a partir de imágenes SAR (EO4SD (Earth Observation for Sustainable Development), n.d).</p>
+
+<p>Use la opción <strong>Radar/Radiometric/Calibrate.</strong></p>
+
+<img src="Fig9.png">
+<h4 id="Sección3">Fig 9. Acceso a la herramienta de corrección radiométrica.</h4>
+
+<p>Seleccione el recorte de interés en <strong>Source Parameters</strong> y defina la ruta de salida en <strong>Directory</strong>. <strong>Los parámetros de proceso se dejan por defecto. Este proceso se debe realizar para ambas imágenes.</strong></p>
+
+<p>Una vez realizado dar click en <img src="RUN.png">.</p>
+
+<img src="Fig10.png">
+<h4 id="Sección3">Fig 10. Parámetros de corrección radiométrica.</h4>
+
+<img src="Fig11.png">
+<h4 id="Sección3">Fig 11. Aplicación de corrección radiométrica, imagen izquierda 18-09-2017 VV, imagen derecha 12-10-2017, VV.</h4>
 
 
 
