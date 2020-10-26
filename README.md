@@ -36,3 +36,62 @@
 <p>Cabe destacar que la detección remota con sensores ópticos requieren de observaciones con productos de buena calidad, sin nubes o sombras de nubes para minimizar la confusión espectral de los datos (Shen et al., 2019), sin embargo, en zonas tropicales como el caso del área de estudio seleccionada, donde las coberturas nubosas son constantes y abundantes, su aplicación resulta limitada (Flores et al., 2019). Debido a este aspecto, se ha implementado el uso de la imágenes SAR, la cual despeja la limitante de la nubosidad y permite la obtención continua de información (Flores et al., 2019).</p>
 
 <p>Se aplicó una metodología de detección de cambio y umbral para determinar inundaciones de 2 imágenes de SAR del sensor Sentinel-1 de la Agencia Espacial Europea (ESA por sus siglas en inglés). Se procesó la polarización VV, ya que esta presenta resultados de inundación más plausibles en este sensor (Clement. et al,. 2017).Se consideró como área de estudio la zona cercana a la llanura de inundación del Río Tempisque durante la tormenta tropical Nate, sucedido en entre el 4-11 de octubre de 2017.</p>
+
+<p><h3>2.1 Objetivos de aprendizaje:</h3></p>
+
+<p><li>Comprender los pre-procesos de calibración de las imágenes SAR.</li>
+<li>Describir los procesos de interacción de la señal SAR con la superficie terrestre.</li>
+<li>Identificar ventajas y desventajas del uso de imágenes SAR en la detección de inundaciones.</li>
+<li>Generar un mapa de inundaciones.</li></p>
+
+<p><h3>2.2 Datos a dercargar</h3></p>
+
+<p>Se deben descargar dos imágenes de tipo GRD de Sentinel-1, estas se pueden obtener de forma gratuita en los siguientes enlaces:</p>
+<p>Para ambos casos (Alaska Satellite Facility Vertex y Copernicus Open Access Hub) debe crear -en caso de no tenerse- una cuenta de acceso, para poder descargar datos de información satelital de los repositorios.</p>
+
+
+<h4>Alaska Satellite Facility Vertex</h4> 
+<p>Buscador de datos:<p><a href="https://search.asf.alaska.edu/#/" target="_blank">https://search.asf.alaska.edu/#/</a></p>
+<p>Registro de cuenta:<p><a href="https://urs.earthdata.nasa.gov/users/new" target="_blank">https://urs.earthdata.nasa.gov/users/new</a></p>
+
+<h4>Copernicus Open Access Hub</h4>  
+<p>Buscador de datos:<p><a href="https://scihub.copernicus.eu/dhus/#/home" target="_blank">https://scihub.copernicus.eu/dhus/#/home</a></p>
+<p>Registro de cuenta:<p> <a href="https://scihub.copernicus.eu/dhus/#/self-registration" target="_blank">https://scihub.copernicus.eu/dhus/#/self-registration</a></p>
+
+<h4>Conjunto de datos</h4>
+
+<table style="width:100%">
+  <tr>
+    <th>Nombre del producto</th>
+    <th>Fecha</th> 
+    <th>Características</th>
+  </tr>
+  <tr>
+    <td>S1A_IW_GRDH_1SDV_20170918T113029_20170918T113054_018429_01F07D_BCA3</td>
+    <td>2017/09/18</td>
+    <td><p>Sentinel-1A</p>
+<p>Polarización VV, VH</p>
+<p>Órbita: Descendente</p>
+<p>Modo: IW</p>
+<p>Tipo: GRDH</p></td>
+  </tr>
+  <tr>
+    <td>S1A_IW_GRDH_1SDV_20171012T113030_20171012T113055_018779_01FB2A_7C27</td>
+    <td>22017/10/12</td>
+    <td><p>Sentinel-1A</p>
+<p>Polarización VV, VH</p>
+<p>Órbita: Descendente</p>
+<p>Modo: IW</p>
+<p>Tipo: GRDH</p></td>
+  </tr>
+</table>
+
+<p><h2 id="Sección3">3. Pre-procesamiento</h2></p>
+
+<p><h3>3.1 Importar imágenes del repositorio a SNAP.</h3></p>
+
+<p>Las imágenes descargadas se guardan como un archivo comprimido, estas no deben ser descomprimidas, ya que el SNAP interpreta la información en ese formato.
+Use la opción <strong>File/ Open Product</strong> para importar las imágenes SAR del repositorio donde se encuentran los archivos RAR descargados.</p>
+
+<img src="Fig2.png">
+<h4 id="Sección2">Fig 2. Importar imágenes del repositorio.</h4>
