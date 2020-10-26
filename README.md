@@ -15,3 +15,16 @@
 <li><a href="#Sección4">4. Procesamiento para detección de inundaciones</a></li>
 <li><a href="#Sección5">5. Recomendaciones</a></li>
 <li><a href="#Sección7">6. Bibliografía</a></li></p> 
+
+<p>Para ejecutar esta rutina el usuario debe instalar previamente el software Sentinel Toolbox (SNAP), el cual es un software de procesamiento para el análisis y observación de la tierra, con herramientas enfocadas en extensibilidad de datos, portabilidad, procesamiento en marcos gráficos, entre otras herramientas (ESA, 2020).</p>
+
+<img src="SNAP.png" />
+<h4 id="Sección3">Fig. 1. Sentinel Toolbox (SNAP).</h4>
+
+<p>La descarga del software SNAP se puede realizar en la siguiente dirección electrónica</p> 
+<p><a href="http://step.esa.int/main/download/snap-download/" target="_blank">http://step.esa.int/main/download/snap-download/</a></p> 
+
+<p>Los requisitos computacionales mínimos son:
+<li>Sistema operativo: Linux, Mac, Windows.</li>
+<li>RAM: 8 GB Procesador Intel® Core™ i5-5 o sus equivalentes.</li>
+<li>Espacio en disco mínimo 5GB</li></p>
