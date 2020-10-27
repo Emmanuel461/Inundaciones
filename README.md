@@ -79,7 +79,7 @@
   </tr>
   <tr>
     <td>S1A_IW_GRDH_1SDV_20171012T113030_20171012T113055_018779_01FB2A_7C27</td>
-    <td>22017/10/12</td>
+    <td>2017/10/12</td>
     <td><p>Sentinel-1A</p>
 <p>Polarización VV, VH</p>
 <p>Órbita: Descendente</p>
