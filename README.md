@@ -16,7 +16,7 @@
 <li><a href="#Sección5">5. Recomendaciones</a></li>
 <li><a href="#Sección7">6. Bibliografía</a></li></p> 
 
-<p><h2 id="Sección1">2. Prerrequisitos</h2></p>
+<p><h2 id="Sección1">1. Prerrequisitos</h2></p>
 
 <p>Para ejecutar esta rutina el usuario debe instalar previamente el software Sentinel Toolbox (SNAP), el cual es un software de procesamiento para el análisis y observación de la tierra, con herramientas enfocadas en extensibilidad de datos, portabilidad, procesamiento en marcos gráficos, entre otras herramientas (ESA, 2020).</p>
 
@@ -236,3 +236,32 @@ Una vez realizado dar click en <img src="RUN.png">.</p>
 
 <p><h2 id="Sección4">4. Procesamiento para detección de inundaciones</h2></p>
 
+<p><h3>4.1 Crear un apilado/stack de las imágenes procesadas.</h3></p>
+
+Con las imágenes debidamente preprocesadas el siguiente paso consiste en la elaboración de un archivo que compile las dos imágenes:
+<li>subset_0_of_S1A_IW_GRDH_1SDV_20171012T113030_20171012T113055_018779_01FB2A_7C27_Orb_Cal_Spk_TC.data</li>
+<li>subset_1_of_S1A_IW_GRDH_1SDV_20170918T113029_20170918T113054_018429_01F07D_BCA3_Orb_Cal_Spk.data</li>
+
+<p>Para esto use la opción <strong>Radar/Coregistration/Stack Tools/Create Stack</strong> (Fig 20).</p>
+
+<img src="Fig20.png">
+<h4 id="Sección4">Fig 20. Acceso a la herramienta de apilar imágenes SAR.</h4>
+
+<p>Añadir las imágenes a la herramienta usando la opción<img src="MAS.png">. Se recomienda ordenar las imágenes respecto a la línea temporal,en primer lugar la imagen antes del evento de inundación (18Sept2017) y luego la imagen posterior a la inundación (12Oct2017) (Fig 21).<p>
+
+<img src="Fig21.png">
+<h4 id="Sección4">Fig 21. Selección de las imágenes a apilar.</h4>
+
+<p>En la pestaña <strong>2-CreateStack/ Initial Offset Method</strong> seleccione la opción <strong>Product Geolocation</strong>, ya que ambas imágenes han sido debidamente calibradas en órbita, Geométrica y radiométrica en pasos previos (Fig 21).</p>
+
+<img src="Fig22.png">
+<h4 id="Sección4">Fig 22. Parámetros de procesamiento en la creación del apilado.</h4>
+
+<p>Una vez hecho esto seleccione la ruta de salida en la pestaña Write/Directory y presione <img src="RUN.png">.</p>
+
+<img src="Fig23.png">
+<h4 id="Sección4">Fig 23. Resultado del compilamiento de las imagenes.</h4>
+
+<p><h3>4.2 Vista previa de inundaciones.</h3></p>
+
+<p>Creación de RGB para visualización previa de los cambios entre las dos imágenes (Fig 24). Nótese los valores en tonos rojos y azules que se encuentran cerca de las llanuras de inundación.</p>
