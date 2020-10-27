@@ -296,5 +296,39 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 <img src="Fig27.png">
 <h4 id="Sección4">Fig 27. Selección de los parámetros de detección de cambios.</h4>
 
-<p>En la selección de los parámetros de Mask upper threshold y Mask lower threshold (Fig 26) se deben establecer los valores de umbral -filtrado por valor establecido- tanto positivos como negativos de desviación estándar, basado en los datos obtenidos de la proporción del logaritmo aplicado, lo cual da como resultado un enmascaramiento de la imagen r (Fig 28).</p>
-<p>En este ejemplo se seleccionó para Mask upper threshold = 2 y para Mask lower threshold = -1 (Fig 26).</p>
+<p>En la selección de los parámetros de <strong>Mask upper threshold y Mask lower threshold</strong> (Fig 26) se deben establecer los valores de umbral -filtrado por valor establecido- tanto positivos como negativos de desviación estándar, basado en los datos obtenidos de la proporción del logaritmo aplicado, lo cual da como resultado un enmascaramiento de la imagen r (Fig 28).</p>
+
+<p>En este ejemplo se seleccionó para <strong>Mask upper threshold = 2</strong> y para <strong>Mask lower threshold = -1</strong> (Fig 26).</p>
+
+<img src="Fig28.png">
+<h4 id="Sección4">Fig 28. Resultado del proceso de detección de cambio sin enmascaramiento.</h4>
+
+<p>Lo valores con tonalidades más claras representan zonas de cambio en el intervalo positivo (>2), que se relacionan con zonas de retrodispersión especular, en este caso <strong>inundaciones de aguas abiertas</strong>. En el caso de los valores con tonos más oscuros representan zonas de cambio en el intervalo negativo (<-1), que se relacionan con zonas de vegetación inundada (Fig 29).</p>
+
+<p>La detección de zonas de inundación bajo coberturas (cultivos, pastos, bosques, manglares, etc.), va estar ligada a su estructura y densidad, ya que este puede evitar que el pulso energético del sensor penetre la cobertura, lo que limitaría la detección de inundaciones y se reportarían sin cambio. Por lo tanto, la detección de vegetación inundada será más precisa con longitudes de onda largas (por ejemplo banda L), ya que esto favorece la penetración del haz energético en distintas coberturas.</p>
+
+<img src="Fig29.png">
+<h4 id="Sección4">Fig 29. Resultado del proceso de detección de cambio, con enmascaramiento.</h4>
+
+<p><h3>4.4 Filtro de altitud.</h3></p>
+
+<p>Los resultados de detección de cambio presentan una serie de falsos positivos, que pueden estar relacionados a cambios en las condiciones atmosféricas, así como el contenido de humedad entre una imagen y otra, de igual forma, aspectos como la topografía pueden influir en la detección de estas falsos positivos, que se manifiestan en forma de ruido en la imagen generada.</p>
+
+<p>Agregue una banda de elevación al archivo con el resultado obtenido del proceso de detección de cambios, presionando click derecho sobre el archivo y seleccione Add Elevation Band.</p>
+
+<p>Una vez abierta la herramienta (Fig 29), seleccione el MDE de preferencia y presione <img src="RUN.png">.</p>
+
+<img src="Fig30.png">
+<h4 id="Sección4">Fig 30. Añadir MDE al archivo con el resultado del enmascaramiento.</h4>
+
+
+<p>Para disminuir este ruido se aplicó un filtro basado en la elevación, para esto seleccione la imagen log_ratio y presione click derecho y elija <strong>Band Maths…</strong> (Fig 30). Una vez en la calculadora de bandas, seleccione <strong>Edit Expression…</strong>, proceda a insertar la siguiente expresión: <strong>log_ratio > 2 && elevation < 50</strong>. Esto permitirá obtener solo las zonas de cambio del intervalo positivo que se encuentren en elevaciones menores a los 50 msnm, relacionadas con las llanuras de inundación (Fig 31). Ejecute esto nuevamente para filtrar las los valores de cambio del intervalo negativo < -1, mediante la expresión: <strong>log_ratio < -1 && elevation < 15</strong>.</p>
+
+<p>Se recomienda ajustar estos filtros basados en valoraciones de terreno, en este caso, los valores de altitud responden a las situaciones particulares del área de estudio, es decir, estos deben ajustarse según sea el caso y el lugar de interés debido a las variaciones espaciales entre un área y otra. De igual forma, se insta al usuario de este manual a experimentar con otros valores de la altitud y evaluar sus resultados.</p>
+
+<img src="Fig31.png">
+<h4 id="Sección4">Fig 31. Band Maths.</h4>
+
+
+
+<iframe width="420" height="315" src="https://www.youtube.com//embed//G0JjmpvOZD4/"></iframe>
