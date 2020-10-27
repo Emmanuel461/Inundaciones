@@ -14,7 +14,7 @@
 <li><a href="#Sección3">3. Pre-procesamiento</a></li>
 <li><a href="#Sección4">4. Procesamiento para detección de inundaciones</a></li>
 <li><a href="#Sección5">5. Recomendaciones</a></li>
-<li><a href="#Sección7">6. Bibliografía</a></li></p> 
+<li><a href="#Sección6">6. Bibliografía</a></li></p> 
 
 <p><h2 id="Sección1">1. Prerrequisitos</h2></p>
 
@@ -329,6 +329,59 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 <img src="Fig31.png">
 <h4 id="Sección4">Fig 31. Band Maths.</h4>
 
+<img src="Fig32.png">
+<h4 id="Sección4">Fig 32. Imagen binaria de Inundaciones abiertas (disminución en la retrodispersión), colores blancos representan zonas inundadas.</h4>
 
 
-<iframe width="420" height="315" src="https://www.youtube.com//embed//G0JjmpvOZD4/"></iframe>
+<img src="Fig33.png">
+<h4 id="Sección4">Fig 33. Imagen binaria de inundación bajo cobertura (incremento en retrodispersión), colores blancos representan zonas inundadas.</h4>
+
+<p><h3>4.5 Exportar de datos</h3></p>
+
+<p>Para exportar los datos obtenidos del proceso y poder observarlos en un programa por aparte a SNAP, presione <strong>File/Export</strong>/ y establezca el formato deseado (Fig 33), en este caso se ha establecido como formato de salida <strong>GeoTIFF</strong> (Fig 34).</p>
+
+<img src="Fig34.png">
+<h4 id="Sección4">Fig 34. Proceso de exportación de datos desde SNAP.</h4>
+
+<p>Una vez seleccionado GeoTIFF le aparecerá la venta donde debe seleccionar el directorio de salida (Fig 34). Una vez realizado este paso presione <img src="EP.png">.</p>
+
+<img src="Fig35.png">
+<h4 id="Sección4">Fig 35.Selección del directorio de salida del archivo a exportar.</h4>
+
+<img src="Fig36.png">
+<h4 id="Sección4">Fig 35. Resultados de los procesos visualizados en el software libre QGIS.</h4>
+
+<p>El resultado mostrado en la Fig 35 se filtró por área y se eliminaron valores menores a 300 m2 para el caso de las zonas de Inundación abierta y para el caso de las zonas de Inundación bajo cobertura con valores menores 150 m2.</p>
+
+<p><h2 id="Sección5">1. Recomendaciones</h2></p>
+
+
+<p>La detección de inundaciones a partir de imágenes SAR presenta una serie de ventajas, como la obtención de información libre de nubosidad y la continuidad en la obtención de datos, aunque, su aplicación se encuentra ligada a los periodos de revisita del sensor y su coincidencia con el evento de inundación.
+Para mejorar la precisión de los resultados se recomienda un análisis de línea de tiempo, mediante el uso de una imagen multi-temporal promedio para el periodo antes del evento y su contraste con una imagen posterior al evento.</p>
+
+<p>Para los casos donde se comprenda grandes áreas de estudio, se recomienda la ejecución de un proceso por secciones o lotes, con el fin de establecer umbrales de cambio locales con el fin de abordar las diferencias en retrodispersión generadas por las distintas coberturas y los cambios en la topografía. Por otro lado, se recomienda un análisis estadístico más riguroso para la selección de un umbral ideal.</p>
+
+<p>Múltiples estudios (Clement. et al, 2017) señalan la polarización VV del para el caso del sensor Sentinel-1 como la polarización más adecuada para el estudio de inundaciones, esto en comparación a la polarización VH, que suele sobreestimar los resultados detectados.</p>
+
+<p>A pesar de lo anterior, las zonas inundadas bajo vegetación son difíciles de identificar, para la longitud de onda del Sensor Sentinel-1 (banda C), en muchos casos no logra penetrar las coberturas, detectándose como un área sin cambio. Por lo tanto, la detección de vegetación inundada será más precisa en sensores SAR con mayor longitud de onda (banda L).</p>
+
+<p><h2 id="Sección6">6. Bibliografía</h2></p>
+
+Clement, M. A., Kilsby, C. G., & Moore, P. (2017). Multi-temporal synthetic aperture radar flood mapping using change detection. Journal of Flood Risk Management, 11(2), 152-168. <a href="https://doi.org/10.1111/jfr3.12303" target="_blank">https://doi.org/10.1111/jfr3.12303</a></p>
+
+
+
+Environmental Systems Research Institute (ESRI). (2019). Calibración radiométrica de Sentinel-1—Ayuda | ArcGIS Desktop. ArcGIS Desktop. <a href="https://desktop.arcgis.com/es/arcmap/latest/manage-data/raster-and-images/sentinel-1-radiometric-calibration.htm" target="_blank">https://desktop.arcgis.com/es/arcmap/latest/manage-data/raster-and-images/sentinel-1-radiometric-calibration.htm</a></p>
+
+Le Toan, T. (2007). Introduction to SAR Remote Sensing Lecture. <a href=" https://earth.esa.int/landtraining07/D1LA1-LeToan.pdf" target="_blank"> https://earth.esa.int/landtraining07/D1LA1-LeToan.pdf</a></p>
+
+
+Flores-Anderson, A. I., Herndon, K. E., Bahadur Thapa, R., & Cherrington, E. (Eds.). (2019). The Synthetic Aperture Radar (SAR) Handbook: Comprehensive Methodologies for Forest Monitoring and Biomass Estimation. <a href="https://doi.org/10.25966/nr2c-s697" target="_blank"> https://doi.org/10.25966/nr2c-s697</a></p>
+
+NASA - ARSET (Applied Remote Sensing training). (2017). NASA Remote Sensing for Flood Monitoring and Management Accessing SAR Data Objectives.  <a href="https://arset.gsfc.nasa.gov/sites/default/files/disasters/Dewberry/S2E4.pdf" target="_blank"> https://arset.gsfc.nasa.gov/sites/default/files/disasters/Dewberry/S2E4.pdf</a></p>
+
+Shen, W., Li, M., Huang, C., Tao, X., Li, S., & Wei, A. (2019). Mapping annual forest change due to afforestation in Guangdong Province of China using active and passive remote sensing data. Remote Sensing, 11(5), 1-21. href="https://doi.org/10.3390/rs11050490" target="_blank"> https://doi.org/10.3390/rs11050490</a></p>
+
+Tsyganskaya, V., Martinis, S., Marzahn, P., & Ludwig, R. (2018a). Detection of temporary flooded vegetation using Sentinel-1 time series data. Remote Sensing, 10(8).  href="https://doi.org/10.3390/rs10081286" target="_blank"> https://doi.org/10.3390/rs10081286</a></p>
+
+Tsyganskaya, V., Martinis, S., Marzahn, P., & Ludwig, R. (2018b). SAR-based detection of flooded vegetation–a review of characteristics and approaches. En International Journal of Remote Sensing (Vol. 39, Número 8, pp. 2255-2293). Taylor and Francis Ltd.  href="https://doi.org/10.1080/01431161.2017.1420938" target="_blank"> https://doi.org/10.1080/01431161.2017.1420938</a></p>
