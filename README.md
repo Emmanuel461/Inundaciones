@@ -353,7 +353,7 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 
 <p>El resultado mostrado en la Fig 35 se filtró por área y se eliminaron valores menores a 300 m2 para el caso de las zonas de Inundación abierta y para el caso de las zonas de Inundación bajo cobertura con valores menores 150 m2.</p>
 
-<p><h2 id="Sección5">1. Recomendaciones</h2></p>
+<p><h2 id="Sección5">5. Recomendaciones</h2></p>
 
 
 <p>La detección de inundaciones a partir de imágenes SAR presenta una serie de ventajas, como la obtención de información libre de nubosidad y la continuidad en la obtención de datos, aunque, su aplicación se encuentra ligada a los periodos de revisita del sensor y su coincidencia con el evento de inundación.
@@ -384,8 +384,8 @@ Flores-Anderson, A. I., Herndon, K. E., Bahadur Thapa, R., & Cherrington, E. (Ed
 
 NASA - ARSET (Applied Remote Sensing training). (2017). NASA Remote Sensing for Flood Monitoring and Management Accessing SAR Data Objectives.  <a href="https://arset.gsfc.nasa.gov/sites/default/files/disasters/Dewberry/S2E4.pdf" target="_blank"> https://arset.gsfc.nasa.gov/sites/default/files/disasters/Dewberry/S2E4.pdf</a></p>
 
-Shen, W., Li, M., Huang, C., Tao, X., Li, S., & Wei, A. (2019). Mapping annual forest change due to afforestation in Guangdong Province of China using active and passive remote sensing data. Remote Sensing, 11(5), 1-21. href="https://doi.org/10.3390/rs11050490" target="_blank"> https://doi.org/10.3390/rs11050490</a></p>
+Shen, W., Li, M., Huang, C., Tao, X., Li, S., & Wei, A. (2019). Mapping annual forest change due to afforestation in Guangdong Province of China using active and passive remote sensing data. Remote Sensing, 11(5), 1-21. <a href="https://doi.org/10.3390/rs11050490" target="_blank"> https://doi.org/10.3390/rs11050490</a></p>
 
-Tsyganskaya, V., Martinis, S., Marzahn, P., & Ludwig, R. (2018a). Detection of temporary flooded vegetation using Sentinel-1 time series data. Remote Sensing, 10(8).  href="https://doi.org/10.3390/rs10081286" target="_blank"> https://doi.org/10.3390/rs10081286</a></p>
+Tsyganskaya, V., Martinis, S., Marzahn, P., & Ludwig, R. (2018a). Detection of temporary flooded vegetation using Sentinel-1 time series data. Remote Sensing, 10(8).  <a href="https://doi.org/10.3390/rs10081286" target="_blank"> https://doi.org/10.3390/rs10081286</a></p>
 
-Tsyganskaya, V., Martinis, S., Marzahn, P., & Ludwig, R. (2018b). SAR-based detection of flooded vegetation–a review of characteristics and approaches. En International Journal of Remote Sensing (Vol. 39, Número 8, pp. 2255-2293). Taylor and Francis Ltd.  href="https://doi.org/10.1080/01431161.2017.1420938" target="_blank"> https://doi.org/10.1080/01431161.2017.1420938</a></p>
+Tsyganskaya, V., Martinis, S., Marzahn, P., & Ludwig, R. (2018b). SAR-based detection of flooded vegetation–a review of characteristics and approaches. En International Journal of Remote Sensing (Vol. 39, Número 8, pp. 2255-2293). Taylor and Francis Ltd. <a href="https://doi.org/10.1080/01431161.2017.1420938" target="_blank"> https://doi.org/10.1080/01431161.2017.1420938</a></p>
