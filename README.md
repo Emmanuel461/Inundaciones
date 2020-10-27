@@ -292,3 +292,9 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 <p>Seleccione las imágenes de referencia antes del evento y después del evento para la polarización VV en la sección de <strong>Source Bands</strong>.</p>
 <p>Seleccione Output Log Ratio para obtener una imagen de la proporción realizada r.</p>
 <p>Una vez hecho el paso anterior presione<img src="RUN.png">.</p>
+
+<img src="Fig27.png">
+<h4 id="Sección4">Fig 27. Selección de los parámetros de detección de cambios.</h4>
+
+<p>En la selección de los parámetros de Mask upper threshold y Mask lower threshold (Fig 26) se deben establecer los valores de umbral -filtrado por valor establecido- tanto positivos como negativos de desviación estándar, basado en los datos obtenidos de la proporción del logaritmo aplicado, lo cual da como resultado un enmascaramiento de la imagen r (Fig 28).</p>
+<p>En este ejemplo se seleccionó para Mask upper threshold = 2 y para Mask lower threshold = -1 (Fig 26).</p>
