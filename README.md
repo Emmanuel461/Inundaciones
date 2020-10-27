@@ -185,5 +185,52 @@ Use la opción <strong>Raster/subset</strong>, en </strong>Spatial Subset selecc
 <h4 id="Sección3">Fig 12. Aplicación de corrección radiométrica, imagen izquierda 18-09-2017 VV, imagen derecha 12-10-2017, VV.</h4>
 
 
+<p><h3>3.5 Filtro de moteado/Speckle filter.</h3></p>
 
+<p>El moteado es una distorsión en las imágenes SAR, que se manifiesta como una estructura granular, conocido como efecto “sal y pimienta”, esta distorsión es inherente en imágenes SAR y es el resultado de la interferencia de los ecos de la retrodispersión (EO4SD (Earth Observation for Sustainable Development), n.d y Flores et al., 2019).</p>
+
+<p>Use la opción <strong>Radar/Speckle Filtering/Single Product Speckle Filtering.</strong></p>
+<p>Seleccionar el objeto deseado en la sección <strong>Source</strong> y en <strong>Directory</strong> establezca el repositorio de salida.</p>
+
+<img src="Fig13.png">
+<h4 id="Sección3">Fig 13. Selección del objeto que posee el recorte y los archivos de órbita aplicados.</h4>
+
+<p>Selecciona las bandas -Source Bands para corregir el ruido de moteado (Fig 14).
+En Filter se puede seleccionar el filtro deseado para realizar la corrección.
+Una vez realizado dar click en <img src="RUN.png">.</p>
+
+<img src="Fig14.png">
+<h4 id="Sección3">Fig 14. Establecimiento de los parámetros del filtro para la imagen de salida.</h4>
+
+<img src="Fig15.png">
+<h4 id="Sección3">Fig 15. Aplicación de filtro de Speckle. Imagen izquierda sin filtro, imagen derecha con filtro 12-10-2017, VV.</h4>
+
+<p><h3>3.6 Corrección de Terreno / Terrain correction</h3></p>
+
+<p>El objetivo de este proceso es corregir las distorsiones del terreno que se presentan en la escena de la imagen (Flores et al., 2019). El proceso tiene como requisito el uso de un Modelo Digital de Terreno (MDE), se puede utilizar los repositorios de MDE que SNAP proporciona para realizar el proceso.</p>
+
+<p>Use la opción <strong>Radar/Geometric/Terrain Correction/Range-Doppler Terrain Correction</strong> (Fig 16).</p>
+
+<img src="Fig16.png">
+<h4 id="Sección3">Fig 16. Acceso a la herramienta de corrección de terreno.</h4>
+
+<p>Al igual que en los pasos anteriores seleccionar el objeto deseado en la sección Source y en Directory establezca el repositorio de salida.</p>
+<p>Dejar las opciones de parámetros por defecto, note que el MDE es seleccionado de forma automática con una resolución de 3 segundos de arco (Fig 17).</p>
+<p>Una vez realizado los pasos anteriores dar click en<img src="RUN.png">.</p>
+
+<img src="Fig17.png">
+<h4 id="Sección3">Fig 17. Selección de parámetros herramienta de corrección de terreno.</h4>
+
+<p>A continuación se muestran los resultados de la corrección de terreno (Fig 18).<p>
+  
+<img src="Fig18.png">
+<h4 id="Sección3">Fig 18. Aplicación de corrección de terreno. 12-10-2017, VV.</h4>
+
+<p>Una vez aplicada la corrección de terreno las imágenes se encuentran debidamente calibradas para el proceso de detección de inundaciones. Por otro lado, SNAP ofrece la posibilidad de ejecutar estos procesos en conjunto mediante la construcción de un gráfico. Para esto use la opción <strong>Graph Builder</strong> <img src="GB.png"> Seleccione los parámetros de acuerdo a los pasos explicados previamente (Fig 19).</p>
+
+
+<img src="Fig19.png">
+<h4 id="Sección3">Fig 19. Creación de un gráfico para el procesamiento conjunto de imágenes SAR en SNAP.</h4>
+
+<p><h2 id="Sección4">4. Procesamiento para detección de inundaciones</h2></p>
 
