@@ -239,8 +239,8 @@ Una vez realizado dar click en <img src="RUN.png">.</p>
 <p><h3>4.1 Crear un apilado/stack de las imágenes procesadas.</h3></p>
 
 Con las imágenes debidamente preprocesadas el siguiente paso consiste en la elaboración de un archivo que compile las dos imágenes:
-<li>subset_0_of_S1A_IW_GRDH_1SDV_20171012T113030_20171012T113055_018779_01FB2A_7C27_Orb_Cal_Spk_TC.data</li>
-<li>subset_1_of_S1A_IW_GRDH_1SDV_20170918T113029_20170918T113054_018429_01F07D_BCA3_Orb_Cal_Spk.data</li>
+<p><li>subset_0_of_S1A_IW_GRDH_1SDV_20171012T113030_20171012T113055_018779_01FB2A_7C27_Orb_Cal_Spk_TC.data</li></p>
+<p><li>subset_1_of_S1A_IW_GRDH_1SDV_20170918T113029_20170918T113054_018429_01F07D_BCA3_Orb_Cal_Spk.data</li></p>
 
 <p>Para esto use la opción <strong>Radar/Coregistration/Stack Tools/Create Stack</strong> (Fig 20).</p>
 
