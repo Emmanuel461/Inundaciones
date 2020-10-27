@@ -247,7 +247,7 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 <img src="Fig20.png">
 <h4 id="Sección4">Fig 20. Acceso a la herramienta de apilar imágenes SAR.</h4>
 
-<p>Añadir las imágenes a la herramienta usando la opción<img src="MAS.png">. Se recomienda ordenar las imágenes respecto a la línea temporal,en primer lugar la imagen antes del evento de inundación (18Sept2017) y luego la imagen posterior a la inundación (12Oct2017) (Fig 21).<p>
+<p>Añadir las imágenes a la herramienta usando la opción <img src="MAS.png">. Se recomienda ordenar las imágenes respecto a la línea temporal,en primer lugar la imagen antes del evento de inundación (18Sept2017) y luego la imagen posterior a la inundación (12Oct2017) (Fig 21).<p>
 
 <img src="Fig21.png">
 <h4 id="Sección4">Fig 21. Selección de las imágenes a apilar.</h4>
@@ -265,3 +265,30 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 <p><h3>4.2 Vista previa de inundaciones.</h3></p>
 
 <p>Creación de RGB para visualización previa de los cambios entre las dos imágenes (Fig 24). Nótese los valores en tonos rojos y azules que se encuentran cerca de las llanuras de inundación.</p>
+
+<p>Seleccione el apilado creado y presione click derecho , <strong>Open RGB Image Window.</strong></p>
+
+<p>Establezca en el canal <strong>Red</strong> Sigma0_VV_slv2_12Oct2017, en el canal <strong>Green</strong> Sigma0_VV_mst_18Sep2017 y en el canal <strong>Blue</strong> Sigma0_VV_mst_18Sep2017.</p>
+
+<p>Una vez realizado el paso anterior presione <img src="OK.png">.<p>
+  
+<img src="Fig24.png">
+<h4 id="Sección4">Fig 24. Creación de RGB para visualización.</h4>
+
+<img src="Fig25.png">
+<h4 id="Sección4">Fig 25. Resultado del RGB -valores en tonos de azul representan una disminución en los valores de retrodispersión, lo que se relaciona con una lámina de agua (retrodispersión especular) y en rojo valores donde la retrodispersión aumentó, asociado a la presencia de vegetación inundada (retrodispersión por doble rebote).</h4>
+
+<p><h3>4.3 Algoritmo de detección de cambio/ change detection</h3></p>
+
+<p>Se pretende generar una escala logarítmica de la imagen y una obtención de la proporción de la imagen (Ratio image formation) (fórmula 1) utilizando la herramienta de SNAP <strong>Change Detection</strong> (Fig 26). La fórmula de proporción de imagen, se basa en la proporción de la imagen de reciente adquisición Xi y la imagen de referencia XR, la imagen generada puede ser modelada mediante la siguiente fórmula:</p>
+  
+<img src="FM.png"> <p>Fórmula 1. Proporción de las imágenes utilizadas, donde xi es la imagen después del evento y xr es la imagen de referencia antes del evento de inundación.</p>
+
+<p>La intención de la imagen generada es mejorar la detección potencial de cambios entre las imágenes 18-09-2017, VV & 12-10-2017, VV (Flores et al., 2019) (Fig 28).</p>
+
+<img src="Fig26.png">
+<h4 id="Sección4">Fig 26. Herramienta de detección de cambio en SNAP.</h4>
+
+<p>Seleccione las imágenes de referencia antes del evento y después del evento para la polarización VV en la sección de <strong>Source Bands</strong>.</p>
+<p>Seleccione Output Log Ratio para obtener una imagen de la proporción realizada r.</p>
+<p>Una vez hecho el paso anterior presione<img src="RUN.png">.</p>
