@@ -365,10 +365,14 @@ Para mejorar la precisión de los resultados se recomienda un análisis de líne
 
 <p>A pesar de lo anterior, las zonas inundadas bajo vegetación son difíciles de identificar, para la longitud de onda del Sensor Sentinel-1 (banda C), en muchos casos no logra penetrar las coberturas, detectándose como un área sin cambio. Por lo tanto, la detección de vegetación inundada será más precisa en sensores SAR con mayor longitud de onda (banda L).</p>
 
+
+<p>Para más detalles puede ver el siguiente video tutorial, donde se ilustran los pasos para ejecutar lo mostrado en este manual:</p>
+
+<iframe width="420" height="315" src="https://www.youtube.com//embed//G0JjmpvOZD4/"></iframe>
+
 <p><h2 id="Sección6">6. Bibliografía</h2></p>
 
 Clement, M. A., Kilsby, C. G., & Moore, P. (2017). Multi-temporal synthetic aperture radar flood mapping using change detection. Journal of Flood Risk Management, 11(2), 152-168. <a href="https://doi.org/10.1111/jfr3.12303" target="_blank">https://doi.org/10.1111/jfr3.12303</a></p>
-
 
 
 Environmental Systems Research Institute (ESRI). (2019). Calibración radiométrica de Sentinel-1—Ayuda | ArcGIS Desktop. ArcGIS Desktop. <a href="https://desktop.arcgis.com/es/arcmap/latest/manage-data/raster-and-images/sentinel-1-radiometric-calibration.htm" target="_blank">https://desktop.arcgis.com/es/arcmap/latest/manage-data/raster-and-images/sentinel-1-radiometric-calibration.htm</a></p>
