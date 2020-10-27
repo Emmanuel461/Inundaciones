@@ -343,18 +343,17 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 <img src="Fig34.png">
 <h4 id="Sección4">Fig 34. Proceso de exportación de datos desde SNAP.</h4>
 
-<p>Una vez seleccionado GeoTIFF le aparecerá la venta donde debe seleccionar el directorio de salida (Fig 34). Una vez realizado este paso presione <img src="EP.png">.</p>
+<p>Una vez seleccionado GeoTIFF le aparecerá la venta donde debe seleccionar el directorio de salida (Fig 35). Una vez realizado este paso presione <img src="EP.png">.</p>
 
 <img src="Fig35.png">
 <h4 id="Sección4">Fig 35.Selección del directorio de salida del archivo a exportar.</h4>
 
 <img src="Fig36.png">
-<h4 id="Sección4">Fig 35. Resultados de los procesos visualizados en el software libre QGIS.</h4>
+<h4 id="Sección4">Fig 36. Resultados de los procesos visualizados en el software libre QGIS.</h4>
 
-<p>El resultado mostrado en la Fig 35 se filtró por área y se eliminaron valores menores a 300 m2 para el caso de las zonas de Inundación abierta y para el caso de las zonas de Inundación bajo cobertura con valores menores 150 m2.</p>
+<p>El resultado mostrado en la Fig 36 se filtró por área y se eliminaron valores menores a 300 m2 para el caso de las zonas de Inundación abierta y para el caso de las zonas de Inundación bajo cobertura con valores menores 150 m2.</p>
 
 <p><h2 id="Sección5">5. Recomendaciones</h2></p>
-
 
 <p>La detección de inundaciones a partir de imágenes SAR presenta una serie de ventajas, como la obtención de información libre de nubosidad y la continuidad en la obtención de datos, aunque, su aplicación se encuentra ligada a los periodos de revisita del sensor y su coincidencia con el evento de inundación.
 Para mejorar la precisión de los resultados se recomienda un análisis de línea de tiempo, mediante el uso de una imagen multi-temporal promedio para el periodo antes del evento y su contraste con una imagen posterior al evento.</p>
