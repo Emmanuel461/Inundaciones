@@ -316,13 +316,13 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 
 <p>Agregue una banda de elevación al archivo con el resultado obtenido del proceso de detección de cambios, presionando click derecho sobre el archivo y seleccione Add Elevation Band.</p>
 
-<p>Una vez abierta la herramienta (Fig 29), seleccione el MDE de preferencia y presione <img src="RUN.png">.</p>
+<p>Una vez abierta la herramienta (Fig 30), seleccione el MDE de preferencia y presione <img src="RUN.png">.</p>
 
 <img src="Fig30.png">
 <h4 id="Sección4">Fig 30. Añadir MDE al archivo con el resultado del enmascaramiento.</h4>
 
 
-<p>Para disminuir este ruido se aplicó un filtro basado en la elevación, para esto seleccione la imagen log_ratio y presione click derecho y elija <strong>Band Maths…</strong> (Fig 30). Una vez en la calculadora de bandas, seleccione <strong>Edit Expression…</strong>, proceda a insertar la siguiente expresión: <strong>log_ratio > 2 && elevation < 50</strong>. Esto permitirá obtener solo las zonas de cambio del intervalo positivo que se encuentren en elevaciones menores a los 50 msnm, relacionadas con las llanuras de inundación (Fig 31). Ejecute esto nuevamente para filtrar las los valores de cambio del intervalo negativo < -1, mediante la expresión: <strong>log_ratio < -1 && elevation < 15</strong>.</p>
+<p>Para disminuir este ruido se aplicó un filtro basado en la elevación, para esto seleccione la imagen log_ratio y presione click derecho y elija <strong>Band Maths…</strong> (Fig 31). Una vez en la calculadora de bandas, seleccione <strong>Edit Expression…</strong>, proceda a insertar la siguiente expresión: <strong>log_ratio > 2 && elevation < 50</strong>. Esto permitirá obtener solo las zonas de cambio del intervalo positivo que se encuentren en elevaciones menores a los 50 msnm, relacionadas con las llanuras de inundación (Fig 21). Ejecute esto nuevamente para filtrar las los valores de cambio del intervalo negativo < -1, mediante la expresión: <strong>log_ratio < -1 && elevation < 15</strong>.</p>
 
 <p>Se recomienda ajustar estos filtros basados en valoraciones de terreno, en este caso, los valores de altitud responden a las situaciones particulares del área de estudio, es decir, estos deben ajustarse según sea el caso y el lugar de interés debido a las variaciones espaciales entre un área y otra. De igual forma, se insta al usuario de este manual a experimentar con otros valores de la altitud y evaluar sus resultados.</p>
 
@@ -338,7 +338,7 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 
 <p><h3>4.5 Exportar de datos</h3></p>
 
-<p>Para exportar los datos obtenidos del proceso y poder observarlos en un programa por aparte a SNAP, presione <strong>File/Export</strong>/ y establezca el formato deseado (Fig 33), en este caso se ha establecido como formato de salida <strong>GeoTIFF</strong> (Fig 34).</p>
+<p>Para exportar los datos obtenidos del proceso y poder observarlos en un programa por aparte a SNAP, presione <strong>File/Export</strong>/ y establezca el formato deseado (Fig 34), en este caso se ha establecido como formato de salida <strong>GeoTIFF</strong> (Fig 34).</p>
 
 <img src="Fig34.png">
 <h4 id="Sección4">Fig 34. Proceso de exportación de datos desde SNAP.</h4>
@@ -355,8 +355,9 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 
 <p><h2 id="Sección5">5. Recomendaciones</h2></p>
 
-<p>La detección de inundaciones a partir de imágenes SAR presenta una serie de ventajas, como la obtención de información libre de nubosidad y la continuidad en la obtención de datos, aunque, su aplicación se encuentra ligada a los periodos de revisita del sensor y su coincidencia con el evento de inundación.
-Para mejorar la precisión de los resultados se recomienda un análisis de línea de tiempo, mediante el uso de una imagen multi-temporal promedio para el periodo antes del evento y su contraste con una imagen posterior al evento.</p>
+<p>La detección de inundaciones a partir de imágenes SAR presenta una serie de ventajas, como la obtención de información libre de nubosidad y la continuidad en la obtención de datos, aunque, su aplicación se encuentra ligada a los periodos de revisita del sensor y su coincidencia con el evento de inundación.</p>
+
+<p>Para mejorar la precisión de los resultados se recomienda un análisis de línea de tiempo, mediante el uso de una imagen multi-temporal promedio para el periodo antes del evento y su contraste con una imagen posterior al evento.</p>
 
 <p>Para los casos donde se comprenda grandes áreas de estudio, se recomienda la ejecución de un proceso por secciones o lotes, con el fin de establecer umbrales de cambio locales con el fin de abordar las diferencias en retrodispersión generadas por las distintas coberturas y los cambios en la topografía. Por otro lado, se recomienda un análisis estadístico más riguroso para la selección de un umbral ideal.</p>
 
