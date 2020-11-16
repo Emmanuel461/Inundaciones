@@ -368,7 +368,7 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 
 <p>Para más detalles puede ver el siguiente video tutorial, donde se ilustran los pasos para ejecutar lo mostrado en este manual:</p>
 
-<iframe width="420" height="315" src="https://www.youtube.com//embed//G0JjmpvOZD4/"></iframe>
+<iframe width="420" height="315" src="https://www.youtube.com//embed//Dj2tESY56DI/"></iframe>
 
 <p><h2 id="Sección6">6. Bibliografía</h2></p>
 
