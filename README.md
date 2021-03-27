@@ -150,7 +150,7 @@ Use la opción <strong>Raster/subset</strong>, en </strong>Spatial Subset selecc
 
 <p>Seleccione el recorte al que desea aplicar los archivos de órbita y señala el directorio de salida (Fig 6).Una vez realizado dar click en<img src="RUN.png">.</p>
 
-<img src="Fig6.png">
+<img src="Fig6.1.png">
 <h4 id="Sección3">Fig 6. Selección del recorte de aplicación de los archivos de órbita y el directorio de salida.</h4>
 
 
