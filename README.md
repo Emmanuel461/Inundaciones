@@ -180,10 +180,10 @@ Use la opción <strong>Raster/subset</strong>, en </strong>Spatial Subset selecc
 
 <p>Una vez realizado dar click en <img src="RUN.png">.</p>
 
-<img src="Fig11.png">
+<img src="Fig11.1.png">
 <h4 id="Sección3">Fig 11. Parámetros de corrección radiométrica.</h4>
 
-<img src="Fig12.png">
+<img src="Fig12.1.png">
 <h4 id="Sección3">Fig 12. Aplicación de corrección radiométrica, imagen izquierda 18-09-2017 VV, imagen derecha 12-10-2017, VV.</h4>
 
 
@@ -194,14 +194,14 @@ Use la opción <strong>Raster/subset</strong>, en </strong>Spatial Subset selecc
 <p>Use la opción <strong>Radar/Speckle Filtering/Single Product Speckle Filtering.</strong></p>
 <p>Seleccionar el objeto deseado en la sección <strong>Source</strong> y en <strong>Directory</strong> establezca el repositorio de salida.</p>
 
-<img src="Fig13.png">
+<img src="Fig13.1.png">
 <h4 id="Sección3">Fig 13. Selección del objeto que posee el recorte y los archivos de órbita aplicados.</h4>
 
 <p>Selecciona las bandas -Source Bands para corregir el ruido de moteado (Fig 14).
 En Filter se puede seleccionar el filtro deseado para realizar la corrección.
 Una vez realizado dar click en <img src="RUN.png">.</p>
 
-<img src="Fig14.png">
+<img src="Fig14.1.png">
 <h4 id="Sección3">Fig 14. Establecimiento de los parámetros del filtro para la imagen de salida.</h4>
 
 <img src="Fig15.png">
