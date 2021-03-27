@@ -161,11 +161,11 @@ Use la opción <strong>Raster/subset</strong>, en </strong>Spatial Subset selecc
 
 <p>Resultados del subset y el aplicación de los archivos de órbita.</p>
 
-<img src="Fig8.png">
-<h4 id="Sección3">Fig 8. Recorte y aplicación de órbita en imagen de 18-09-2017, VV.</h4>
+<img src="Fig8.1.png">
+<h4 id="Sección3">Fig 8. Recorte y aplicación de órbita en imagen de 04-11-2016, VV.</h4>
 
-<img src="Fig9.png">
-<h4 id="Sección3">Fig 9. Recorte y aplicación de órbita en imagen de 12-10-2017, VV.</h4>
+<img src="Fig9.1.png">
+<h4 id="Sección3">Fig 9. Recorte y aplicación de órbita en imagen de 28-11-2018, VV.</h4>
 
 <p><h3>3.4 Calibración Radiométrica /Radiometric calibration.</h3></p>
 
