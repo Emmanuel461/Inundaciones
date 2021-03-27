@@ -129,7 +129,7 @@ Use la opción <strong>Raster/subset</strong>, en </strong>Spatial Subset selecc
 </table>
 
 
-<img src="Fig3.png">
+<img src="Fig3.1.png">
 <h4 id="Sección3">Fig 3. Delimitación del área de estudio.</h4>
 
 <img src="Fig4.png">
