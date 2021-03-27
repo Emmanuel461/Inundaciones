@@ -156,7 +156,7 @@ Use la opción <strong>Raster/subset</strong>, en </strong>Spatial Subset selecc
 
 <p>En la sección de parámetros de procesamiento (Fig 7) dejar las opciones por defecto.Una vez realizado dar click en<img src="RUN.png">.</p>
 
-<img src="Fig7.png">
+<img src="Fig7.1.png">
 <h4 id="Sección3">Fig 7. Parámetros de procesamiento.</h4>
 
 <p>Resultados del subset y el aplicación de los archivos de órbita.</p>
