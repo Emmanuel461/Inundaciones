@@ -112,19 +112,19 @@ Use la opción <strong>Raster/subset</strong>, en </strong>Spatial Subset selecc
   </tr>
   <tr>
     <td>North latitude bound</td>
-    <td>10.38</td>
+    <td>11.111</td>
   </tr>
   <tr>
     <td>West longitude bound</td>
-    <td>-85.56</td>
+    <td>-84.234</td>
   </tr>
   <tr>
     <td>South latitude bound</td>
-    <td>10.28</td>
+    <td>10.704</td>
   </tr>
   <tr>
     <td>East longitude bound</td>
-    <td>-85.70</td>
+    <td>-85.218</td>
   </tr>
 </table>
 
