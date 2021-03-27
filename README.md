@@ -344,7 +344,7 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 <img src="Fig35.png">
 <h4 id="Sección4">Fig 35.Selección del directorio de salida del archivo a exportar.</h4>
 
-<img src="Fig36.png">
+<img src="Fig36.1.png">
 <h4 id="Sección4">Fig 36. Resultados de los procesos visualizados en el software libre QGIS.</h4>
 
 <p>El resultado mostrado en la Fig 36 se filtró por área y se eliminaron valores menores a 300 m2 para el caso de las zonas de Inundación abierta y para el caso de las zonas de Inundación bajo cobertura con valores menores 150 m2.</p>
