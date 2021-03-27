@@ -112,11 +112,11 @@ Use la opción <strong>Raster/subset</strong>, en </strong>Spatial Subset selecc
   </tr>
   <tr>
     <td>North latitude bound</td>
-    <td>11.073</td>
+    <td>11.057</td>
   </tr>
   <tr>
     <td>West longitude bound</td>
-    <td>-84.809</td>
+    <td>-84.812</td>
   </tr>
   <tr>
     <td>South latitude bound</td>
@@ -129,7 +129,7 @@ Use la opción <strong>Raster/subset</strong>, en </strong>Spatial Subset selecc
 </table>
 
 
-<img src="Fig3.1.png">
+<img src="Fig3.png">
 <h4 id="Sección3">Fig 3. Delimitación del área de estudio.</h4>
 
 <img src="Fig4.png">
@@ -161,10 +161,10 @@ Use la opción <strong>Raster/subset</strong>, en </strong>Spatial Subset selecc
 
 <p>Resultados del subset y el aplicación de los archivos de órbita.</p>
 
-<img src="Fig8.1.png">
+<img src="Fig8.png">
 <h4 id="Sección3">Fig 8. Recorte y aplicación de órbita en imagen de 04-11-2016, VV.</h4>
 
-<img src="Fig9.1.png">
+<img src="Fig9.png">
 <h4 id="Sección3">Fig 9. Recorte y aplicación de órbita en imagen de 28-11-2018, VV.</h4>
 
 <p><h3>3.4 Calibración Radiométrica /Radiometric calibration.</h3></p>
