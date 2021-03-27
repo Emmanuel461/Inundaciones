@@ -204,7 +204,7 @@ Una vez realizado dar click en <img src="RUN.png">.</p>
 <img src="Fig14.1.png">
 <h4 id="Sección3">Fig 14. Establecimiento de los parámetros del filtro para la imagen de salida.</h4>
 
-<img src="Fig15.png">
+<img src="Fig15.1.png">
 <h4 id="Sección3">Fig 15. Aplicación de filtro de Speckle. Imagen izquierda sin filtro, imagen derecha con filtro 12-10-2017, VV.</h4>
 
 <p><h3>3.6 Corrección de Terreno / Terrain correction</h3></p>
@@ -220,13 +220,13 @@ Una vez realizado dar click en <img src="RUN.png">.</p>
 <p>Dejar las opciones de parámetros por defecto, note que el MDE es seleccionado de forma automática con una resolución de 3 segundos de arco (Fig 17).</p>
 <p>Una vez realizado los pasos anteriores dar click en<img src="RUN.png">.</p>
 
-<img src="Fig17.png">
+<img src="Fig17.1.png">
 <h4 id="Sección3">Fig 17. Selección de parámetros herramienta de corrección de terreno.</h4>
 
 <p>A continuación se muestran los resultados de la corrección de terreno (Fig 18).<p>
   
-<img src="Fig18.png">
-<h4 id="Sección3">Fig 18. Aplicación de corrección de terreno. 12-10-2017, VV.</h4>
+<img src="Fig18.1.png">
+<h4 id="Sección3">Fig 18. Aplicación de corrección de terreno. 28-11-2016, VV.</h4>
 
 <p>Una vez aplicada la corrección de terreno las imágenes se encuentran debidamente calibradas para el proceso de detección de inundaciones. Por otro lado, SNAP ofrece la posibilidad de ejecutar estos procesos en conjunto mediante la construcción de un gráfico. Para esto use la opción <strong>Graph Builder</strong> <img src="GB.png"> Seleccione los parámetros de acuerdo a los pasos explicados previamente (Fig 19).</p>
 
@@ -249,17 +249,17 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 
 <p>Añadir las imágenes a la herramienta usando la opción <img src="MAS.png">. Se recomienda ordenar las imágenes respecto a la línea temporal,en primer lugar la imagen antes del evento de inundación (18Sept2017) y luego la imagen posterior a la inundación (12Oct2017) (Fig 21).<p>
 
-<img src="Fig21.png">
+<img src="Fig21.1.png">
 <h4 id="Sección4">Fig 21. Selección de las imágenes a apilar.</h4>
 
 <p>En la pestaña <strong>2-CreateStack/ Initial Offset Method</strong> seleccione la opción <strong>Product Geolocation</strong>, ya que ambas imágenes han sido debidamente calibradas en órbita, Geométrica y radiométrica en pasos previos (Fig 21).</p>
 
-<img src="Fig22.png">
+<img src="Fig22.1.png">
 <h4 id="Sección4">Fig 22. Parámetros de procesamiento en la creación del apilado.</h4>
 
 <p>Una vez hecho esto seleccione la ruta de salida en la pestaña Write/Directory y presione <img src="RUN.png">.</p>
 
-<img src="Fig23.png">
+<img src="Fig23.1.png">
 <h4 id="Sección4">Fig 23. Resultado del compilamiento de las imagenes.</h4>
 
 <p><h3>4.2 Vista previa de inundaciones.</h3></p>
@@ -272,11 +272,11 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 
 <p>Una vez realizado el paso anterior presione <img src="OK.png">.<p>
   
-<img src="Fig24.png">
+<img src="Fig24.1.png">
 <h4 id="Sección4">Fig 24. Creación de RGB para visualización.</h4>
 
-<img src="Fig25.png">
-<h4 id="Sección4">Fig 25. Resultado del RGB -valores en tonos de azul representan una disminución en los valores de retrodispersión, lo que se relaciona con una lámina de agua (retrodispersión especular) y en rojo valores donde la retrodispersión aumentó, asociado a la presencia de vegetación inundada (retrodispersión por doble rebote).</h4>
+<img src="Fig25.1.png">
+<h4 id="Sección4">Fig 25. Resultado del RGB -valores en tonos de azul representan una disminución en los valores de retrodispersión, lo que se relaciona con una lámina de agua (retrodispersión especular) y en rojo valores donde la retrodispersión aumentó, asociado a un aumento en la humedad de la cobertura, en algúnos casos puede relacionarse con vegetación inundada.</h4>
 
 <p><h3>4.3 Algoritmo de detección de cambio/ change detection</h3></p>
 
@@ -293,21 +293,21 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 <p>Seleccione Output Log Ratio para obtener una imagen de la proporción realizada r.</p>
 <p>Una vez hecho el paso anterior presione<img src="RUN.png">.</p>
 
-<img src="Fig27.png">
+<img src="Fig27.1.png">
 <h4 id="Sección4">Fig 27. Selección de los parámetros de detección de cambios.</h4>
 
 <p>En la selección de los parámetros de <strong>Mask upper threshold y Mask lower threshold</strong> (Fig 26) se deben establecer los valores de umbral -filtrado por valor establecido- tanto positivos como negativos de desviación estándar, basado en los datos obtenidos de la proporción del logaritmo aplicado, lo cual da como resultado un enmascaramiento de la imagen r (Fig 28).</p>
 
 <p>En este ejemplo se seleccionó para <strong>Mask upper threshold = 2</strong> y para <strong>Mask lower threshold = -1</strong> (Fig 26).</p>
 
-<img src="Fig28.png">
+<img src="Fig28.1.png">
 <h4 id="Sección4">Fig 28. Resultado del proceso de detección de cambio sin enmascaramiento.</h4>
 
-<p>Lo valores con tonalidades más claras representan zonas de cambio en el intervalo positivo (>2), que se relacionan con zonas de retrodispersión especular, en este caso <strong>inundaciones de aguas abiertas</strong>. En el caso de los valores con tonos más oscuros representan zonas de cambio en el intervalo negativo (<-1), que se relacionan con zonas de vegetación inundada (Fig 29).</p>
+<p>Lo valores con tonalidades más claras representan zonas de cambio en el intervalo positivo (>2), que se relacionan con zonas de retrodispersión especular, en este caso <strong>inundaciones de aguas abiertas</strong>. En el caso de los valores con tonos más oscuros representan zonas de cambio en el intervalo negativo (<-1), que se relacionan con un aumento en los niveles de retrodispersión, estos pueden estár vinculados a un aumento de la humedad de la cobertura y en algunos casos por vegetación inundada (Fig 29).</p>
 
 <p>La detección de zonas de inundación bajo coberturas (cultivos, pastos, bosques, manglares, etc.), va estar ligada a su estructura y densidad, ya que este puede evitar que el pulso energético del sensor penetre la cobertura, lo que limitaría la detección de inundaciones y se reportarían sin cambio. Por lo tanto, la detección de vegetación inundada será más precisa con longitudes de onda largas (por ejemplo banda L), ya que esto favorece la penetración del haz energético en distintas coberturas.</p>
 
-<img src="Fig29.png">
+<img src="Fig29.1.png">
 <h4 id="Sección4">Fig 29. Resultado del proceso de detección de cambio, con enmascaramiento.</h4>
 
 <p><h3>4.4 Filtro de altitud.</h3></p>
@@ -322,19 +322,15 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 <h4 id="Sección4">Fig 30. Añadir MDE al archivo con el resultado del enmascaramiento.</h4>
 
 
-<p>Para disminuir este ruido se aplicó un filtro basado en la elevación, para esto seleccione la imagen log_ratio y presione click derecho y elija <strong>Band Maths…</strong> (Fig 31). Una vez en la calculadora de bandas, seleccione <strong>Edit Expression…</strong>, proceda a insertar la siguiente expresión: <strong>log_ratio > 2 && elevation < 50</strong>. Esto permitirá obtener solo las zonas de cambio del intervalo positivo que se encuentren en elevaciones menores a los 50 msnm, relacionadas con las llanuras de inundación (Fig 21). Ejecute esto nuevamente para filtrar las los valores de cambio del intervalo negativo < -1, mediante la expresión: <strong>log_ratio < -1 && elevation < 15</strong>.</p>
+<p>Para disminuir este ruido se aplicó un filtro basado en la elevación, para esto seleccione la imagen log_ratio y presione click derecho y elija <strong>Band Maths…</strong> (Fig 31). Una vez en la calculadora de bandas, seleccione <strong>Edit Expression…</strong>, proceda a insertar la siguiente expresión: <strong>log_ratio > 2 && elevation < 300</strong>. Esto permitirá obtener solo las zonas de cambio del intervalo positivo que se encuentren en elevaciones menores a los 50 msnm, relacionadas con las llanuras de inundación (Fig 21). Para el caso de las zonas donde aumento la retrodispersión no aplicaremos una expresión similar a la anterior, dado que no hay certeza de que se esten cuantificando zonas de vegetación inundada, ya que como se mencionó antes, necesitariamos lóngitudes de onda mayores (banda L o P).</p>
 
 <p>Se recomienda ajustar estos filtros basados en valoraciones de terreno, en este caso, los valores de altitud responden a las situaciones particulares del área de estudio, es decir, estos deben ajustarse según sea el caso y el lugar de interés debido a las variaciones espaciales entre un área y otra. De igual forma, se insta al usuario de este manual a experimentar con otros valores de la altitud y evaluar sus resultados.</p>
 
-<img src="Fig31.png">
+<img src="Fig31.1.png">
 <h4 id="Sección4">Fig 31. Band Maths.</h4>
 
-<img src="Fig32.png">
+<img src="Fig32.1.png">
 <h4 id="Sección4">Fig 32. Imagen binaria de Inundaciones abiertas (disminución en la retrodispersión), colores blancos representan zonas inundadas.</h4>
-
-
-<img src="Fig33.png">
-<h4 id="Sección4">Fig 33. Imagen binaria de inundación bajo cobertura (incremento en retrodispersión), colores blancos representan zonas inundadas.</h4>
 
 <p><h3>4.5 Exportar de datos</h3></p>
 
