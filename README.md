@@ -334,7 +334,7 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 
 <p><h3>4.5 Exportar de datos</h3></p>
 
-<p>Para exportar los datos obtenidos del proceso y poder observarlos en un programa por aparte a SNAP, presione <strong>File/Export</strong>/ y establezca el formato deseado (Fig 34), en este caso se ha establecido como formato de salida <strong>GeoTIFF</strong> (Fig 34).</p>
+<p>Para exportar los datos obtenidos del proceso y poder observarlos en un software distinto a SNAP, presione <strong>File/Export</strong>/ y establezca el formato deseado (Fig 34), en este caso se ha establecido como formato de salida <strong>GeoTIFF</strong> (Fig 34).</p>
 
 <img src="Fig34.png">
 <h4 id="Sección4">Fig 34. Proceso de exportación de datos desde SNAP.</h4>
