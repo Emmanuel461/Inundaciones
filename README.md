@@ -361,10 +361,6 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 <p>A pesar de lo anterior, las zonas inundadas bajo vegetación son difíciles de identificar, para la longitud de onda del Sensor Sentinel-1 (banda C), en muchos casos no logra penetrar las coberturas, detectándose como un área sin cambio. Por lo tanto, la detección de vegetación inundada será más precisa en sensores SAR con mayor longitud de onda (banda L).</p>
 
 
-<p>Para más detalles puede ver el siguiente video tutorial, donde se ilustran los pasos para ejecutar lo mostrado en este manual:</p>
-
-<iframe width="420" height="315" src="https://www.youtube.com//embed//Dj2tESY56DI/"></iframe>
-
 <p><h2 id="Sección6">6. Bibliografía</h2></p>
 
 Clement, M. A., Kilsby, C. G., & Moore, P. (2017). Multi-temporal synthetic aperture radar flood mapping using change detection. Journal of Flood Risk Management, 11(2), 152-168. <a href="https://doi.org/10.1111/jfr3.12303" target="_blank">https://doi.org/10.1111/jfr3.12303</a></p>
