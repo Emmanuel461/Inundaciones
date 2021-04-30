@@ -50,6 +50,9 @@
 <p>Se deben descargar dos imágenes de tipo GRD de Sentinel-1, estas se pueden obtener de forma gratuita en los siguientes enlaces:</p>
 <p>Para ambos casos (Alaska Satellite Facility Vertex y Copernicus Open Access Hub) debe crear -en caso de no tenerse- una cuenta de acceso, para poder descargar datos de información satelital de los repositorios.</p>
 
+<p>Los datos a utilizar en este ejercicio se pueden descargar en el siguiente link:</p> <p><a href="https://drive.google.com/drive/folders/1LskWHDxjRLl1VCsKxCGPBKiDYswok-IM?usp=sharing" target="_blank">https://drive.google.com/drive/folders/1LskWHDxjRLl1VCsKxCGPBKiDYswok-IM?usp=sharing</a></p> 
+
+
 
 <h4>Alaska Satellite Facility Vertex</h4> 
 <p>Buscador de datos:<p><a href="https://search.asf.alaska.edu/#/" target="_blank">https://search.asf.alaska.edu/#/</a></p>
