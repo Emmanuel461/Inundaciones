@@ -243,15 +243,15 @@ Una vez realizado dar click en <img src="RUN.png">.</p>
 <p><h3>4.1 Crear un apilado/stack de las imágenes procesadas.</h3></p>
 
 Con las imágenes debidamente preprocesadas el siguiente paso consiste en la elaboración de un archivo que compile las dos imágenes:
-<p><li>subset_0_of_S1A_IW_GRDH_1SDV_20171012T113030_20171012T113055_018779_01FB2A_7C27_Orb_Cal_Spk_TC.data</li></p>
-<p><li>subset_1_of_S1A_IW_GRDH_1SDV_20170918T113029_20170918T113054_018429_01F07D_BCA3_Orb_Cal_Spk.data</li></p>
+<p><li>subset_2_of_S1B_IW_GRDH_1SSV_20161104T112942_20161104T113007_002808_004C17_2139_Orb_Cal_Spk_TC.data</li></p>
+<p><li>subset_1_of_S1B_IW_GRDH_1SSV_20161128T112941_20161128T113006_003158_0055F6_F8D4_Orb_Cal_Spk.data</li></p>
 
 <p>Para esto use la opción <strong>Radar/Coregistration/Stack Tools/Create Stack</strong> (Fig 20).</p>
 
 <img src="Fig20.png">
 <h4 id="Sección4">Fig 20. Acceso a la herramienta de apilar imágenes SAR.</h4>
 
-<p>Añadir las imágenes a la herramienta usando la opción <img src="MAS.png">. Se recomienda ordenar las imágenes respecto a la línea temporal,en primer lugar la imagen antes del evento de inundación (18Sept2017) y luego la imagen posterior a la inundación (12Oct2017) (Fig 21).<p>
+<p>Añadir las imágenes a la herramienta usando la opción <img src="MAS.png">. Se recomienda ordenar las imágenes respecto a la línea temporal,en primer lugar la imagen antes del evento de inundación (04Nov2016) y luego la imagen posterior a la inundación (28Nov2016) (Fig 21).<p>
 
 <img src="Fig21.1.png">
 <h4 id="Sección4">Fig 21. Selección de las imágenes a apilar.</h4>
@@ -272,7 +272,7 @@ Con las imágenes debidamente preprocesadas el siguiente paso consiste en la ela
 
 <p>Seleccione el apilado creado y presione click derecho , <strong>Open RGB Image Window.</strong></p>
 
-<p>Establezca en el canal <strong>Red</strong> Sigma0_VV_slv2_12Oct2017, en el canal <strong>Green</strong> Sigma0_VV_mst_18Sep2017 y en el canal <strong>Blue</strong> Sigma0_VV_mst_18Sep2017.</p>
+<p>Establezca en el canal <strong>Red</strong> Sigma0_VV_slv2_28Nov2016, en el canal <strong>Green</strong> Sigma0_VV_mst_04Nov2016 y en el canal <strong>Blue</strong> Sigma0_VV_mst_04Nov2016.</p>
 
 <p>Una vez realizado el paso anterior presione <img src="OK.png">.<p>
   
