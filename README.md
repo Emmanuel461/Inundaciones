@@ -5,7 +5,7 @@
 <p>Este manual fue elaborado con el proposito de proporcionar una metodolgía de detección de inundaciones</p>
 
 <h3>Elaborado por:</h3>
-<h3>Emmnauel Jesús Céspedes Rivera</h3>
+<h3>Emmanuel Jesús Céspedes Rivera</h3>
 <h3>Cristian Aguilar Barboza</h3>
 
 <p>Índice</p> 
